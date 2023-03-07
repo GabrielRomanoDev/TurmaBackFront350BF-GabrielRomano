@@ -31,3 +31,56 @@ class Automovel {
     
 }
 
+class Animal {
+    
+    var numeroPatas: Int = 4
+    var classe: String = "Mamifero"
+    var altura: Double = 1.5 //metros
+    var peso: Double = 100.0 //Kg
+    var eVertebrado: Bool = true
+    
+    func correr(){
+        print("Está correndo!")
+    }
+    
+    func caçar(){
+        print("Está caçando!")
+    }
+    
+}
+
+class computador {
+    
+    var marca: String = "Apple"
+    var chip: String = "m2"
+    var cor: String = "prata"
+    var memoriaRam: Double = 8.0 //Gb
+    var ano: Int = 2022
+    
+    func ligar(){
+        print("Está Ligado")
+    }
+    
+    func desligar(){
+        print("Está desligado!")
+    }
+    
+}
+
+class aula {
+    
+    var prof: String = "Caio"
+    var assunto: String = "Classes"
+    var turmaNumero: Int = 350
+    var data: String = "07/03/2023"
+    var numeroAlunos: Int = 23
+    
+    func compartilharTela(){
+        print("Compartilhando!")
+    }
+    
+    func levantarMao(){
+        print("Mão Levantada")
+    }
+    
+}
