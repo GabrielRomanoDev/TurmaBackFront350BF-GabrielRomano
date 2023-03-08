@@ -39,11 +39,11 @@ class Animal {
     var peso: Double = 100.0 //Kg
     var eVertebrado: Bool = true
     
-    func correr(){
+    func correr() {
         print("Está correndo!")
     }
     
-    func caçar(){
+    func caçar() {
         print("Está caçando!")
     }
     
@@ -57,11 +57,11 @@ class computador {
     var memoriaRam: Double = 8.0 //Gb
     var ano: Int = 2022
     
-    func ligar(){
+    func ligar() {
         print("Está Ligado")
     }
     
-    func desligar(){
+    func desligar() {
         print("Está desligado!")
     }
     
@@ -75,12 +75,16 @@ class aula {
     var data: String = "07/03/2023"
     var numeroAlunos: Int = 23
     
-    func compartilharTela(){
+    func compartilharTela() {
         print("Compartilhando!")
     }
     
-    func levantarMao(){
+    func levantarMao() {
         print("Mão Levantada")
     }
     
 }
+
+var macbook:computador = computador()
+
+print(macbook.ano)
