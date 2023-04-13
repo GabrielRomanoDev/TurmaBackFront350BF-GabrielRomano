@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Eh7-FX-Ip0">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sPx-Gf-XgI">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -24,19 +24,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eh7-FX-Ip0" secondAttribute="trailing" id="3dD-qF-epv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Eh7-FX-Ip0" secondAttribute="bottom" id="TtO-2Q-sof"/>
-                            <constraint firstItem="Eh7-FX-Ip0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cct-iM-hXN"/>
-                            <constraint firstItem="Eh7-FX-Ip0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qSu-T5-RDP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sPx-Gf-XgI" secondAttribute="bottom" id="87B-Be-Wu4"/>
+                            <constraint firstItem="sPx-Gf-XgI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ArP-wr-A8l"/>
+                            <constraint firstItem="sPx-Gf-XgI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pXK-wF-ZQd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sPx-Gf-XgI" secondAttribute="trailing" id="wc3-sK-gha"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="Eh7-FX-Ip0" id="EY2-ST-p9P"/>
+                        <outlet property="moviesTableView" destination="sPx-Gf-XgI" id="86f-d0-gk8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5" y="-27"/>
+            <point key="canvasLocation" x="114" y="-27"/>
         </scene>
     </scenes>
     <resources>
